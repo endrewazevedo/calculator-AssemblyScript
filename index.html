@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora AssemblyScript</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Calculadora AssemblyScript</h1>
+  </header>
+
+  <div class="calculator-container">
+    <p>Escolha dois números e uma operação:</p>
+
+    <div class="calculator-inputs">
+      <span class="input-label">Número 1:</span>
+      <input id="num1" type="number">
+
+      <span class="input-label">Operação:</span>
+      <select id="op">
+        <option value="add">+</option>
+        <option value="sub">-</option>
+        <option value="mul">*</option>
+        <option value="div">/</option>
+      </select>
+
+      <span class="input-label">Número 2:</span>
+      <input id="num2" type="number">
+    </div>
+
+    <button id="calc" class="calculator-button">Calcular</button>
+
+    <p class="calculator-result">Resultado: <span id="result">0</span></p>
+  </div>
+
+  <script src="index.js"></script>
+
+  <footer>
+    <p>&copy; 2023 Developer by Maycon, Pamela and Vitor</p>
+  </footer>
+</body>
+</html>
